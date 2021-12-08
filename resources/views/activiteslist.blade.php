@@ -23,7 +23,7 @@
                     <td>{{ $activite->heure }}</td>
                     <td>{{ $activite->description }}</td>
                     <td>
-                        <a href="{{ url('activites/edit1/'.$activite->idacti) }}" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="{{ url('activites/edit1/'.$activite->idacti) }}" class="btn btn-sm btn-warning">Modifier</a>
 
                     </td>
 

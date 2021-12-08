@@ -32,7 +32,7 @@
                     <td>{{ $personne->entite }}</td>
                     <td>
 
-                        <a href="{{ url('personnes/edit4/'.$personne->idpers) }}" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="{{ url('personnes/edit4/'.$personne->idpers) }}" class="btn btn-sm btn-warning">Modifier</a>
 
                     </td>
 

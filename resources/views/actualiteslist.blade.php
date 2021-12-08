@@ -22,7 +22,7 @@
                     <td>{{ $actualite->article }}</td>
                     <td>
 
-                        <a href="{{ url('actualites/edit2/'.$actualite->idactu) }}" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="{{ url('actualites/edit2/'.$actualite->idactu) }}" class="btn btn-sm btn-warning">Modifier</a>
 
                     </td>
 

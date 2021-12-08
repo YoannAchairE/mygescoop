@@ -24,7 +24,7 @@
                     <td>{{ $recette->montantrec }}</td>
                     <td>
 
-                        <a href="{{ url('recettes/edit5/'.$recette->idrec) }}" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="{{ url('recettes/edit5/'.$recette->idrec) }}" class="btn btn-sm btn-warning">Modifier</a>
 
                     </td>
 

@@ -24,7 +24,7 @@
                     <td>{{ $depense->montantdep }}</td>
                     <td>
 
-                        <a href="{{ url('depenses/edit3/'.$depense->iddep) }}" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="{{ url('depenses/edit3/'.$depense->iddep) }}" class="btn btn-sm btn-warning">Modifier</a>
 
                     </td>
 

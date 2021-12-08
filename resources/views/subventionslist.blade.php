@@ -23,7 +23,7 @@
                     <td>{{ $subvention->libellesub }}</td>
                     <td>{{ $subvention->montantsub }}</td>
                     <td>
-                        <a href="{{ url('subventions/edit6/'.$subvention->idsub) }}" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="{{ url('subventions/edit6/'.$subvention->idsub) }}" class="btn btn-sm btn-warning">Modifier</a>
 
                     </td>
 

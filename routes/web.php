@@ -18,7 +18,7 @@ Route::get('/', function () {
 */
 
 
-Route::get('/',"StudentController@index") ;
+Route::get('/index',"StudentController@index") ;
 Route::get('/edit/{id}',"StudentController@edit") ;
 Route::get('/show/{id}',"StudentController@show") ;
 Route::get('/create',"StudentController@create") ;
@@ -68,11 +68,11 @@ Route::post('personnes/update4/{idpers}',"PersonneController@update4") ;
 Route::post('recettes/update5/{idrec}',"RecetteController@update5") ;
 Route::post('subventions/update6/{idsub}',"SubventionController@update6") ;
 
-Route::get('/inscription', function () {
-    return view('inscription');
+Route::get('/', function () {
+    return view('welcome');
 });
 
-
+Route::get('/home', 'HomeController@index')->name('home');
 
 /*
 |--------------------------------------------------------------------------
@@ -85,8 +85,9 @@ Route::get('admin/logout', 'Auth\AdminAuthController@logout')->name('adminLogout
 
 Route::group(['prefix' => 'admin','middleware' => 'adminauth'], function () {
 	// Admin Dashboard
-	Route::get('dashboard','AdminController@dashboard')->name('dashboard');	
+	Route::get('dashboard','AdminController@dashboard')->name('dashboard');
 });
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

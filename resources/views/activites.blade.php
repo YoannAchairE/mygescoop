@@ -43,7 +43,7 @@
                 <div class="card mb-3">
                     <img src="https://marketplace.canva.com/MAB7yqsko0c/1/screen_2x/canva-smart-little-schoolgirl--MAB7yqsko0c.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Vous trouverez ici toutes les informations relatives aux dépenses de la coopérative</h5>
+                        <h5 class="card-title">Vous trouverez ici toutes les informations relatives aux activités de la coopérative</h5>
                         <form action="{{ url('/store2') }}" method="post">
                             @csrf
                             <div class="form-group">
@@ -66,7 +66,7 @@
                                 <input name="description" type="text" class="form-control"  placeholder="Entrez la description">
                             </div>
                             
-                            <input type="submit" class="btn btn-info" value="Save">
+                            <input type="submit" class="btn btn-info" value="Enregistrer">
                             <input type="reset" class="btn btn-warning" value="Reset">
 
                         </form>
@@ -119,7 +119,7 @@
                                 <input value="{{ $activite->description }}" name="description" type="text" class="form-control"  placeholder="Entrez la description">
                             </div>
 
-                            <input type="submit" class="btn btn-info" value="Update">
+                            <input type="submit" class="btn btn-info" value="Modifier">
                             <input type="reset" class="btn btn-warning" value="Reset">
 
                         </form>

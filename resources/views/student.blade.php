@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <title>MyGesCoop</title>
 </head>
+
 <body>
 @include("navbar")
 
 
 
 
-<div class="row header-container justify-content-center">
+<div class="row header-container justify-content-center" >
     <div class="header">
         <h1 style="font-size: xxx-large;">MyGesCoop</h1>
     </div>
